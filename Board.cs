@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 
 namespace ChessBoardModel
 {
-    internal class Board
+    public class Board
     {
 
         public int Size { get; set; }
 
         // 2-d array of Cell objects 
         public Cell[,] theGrid { get; set; }
-
+       
 
         public Board(int s)
         {

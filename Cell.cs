@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ChessBoardModel
 {
-    internal class Cell
+    public class Cell
     {
         // represents position of cell on chessboard, ranges from #1-8
         public int RowNumber { get; set; }
